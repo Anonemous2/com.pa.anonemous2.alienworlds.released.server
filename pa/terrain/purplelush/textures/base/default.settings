@@ -1,0 +1,4 @@
+resource-root: /pa/terrain/purplelush/textures/base
+srgb-texname-expression: diffuse|skybox
+texture-format-alpha: dxt5
+texture-format-noalpha: dxt1
