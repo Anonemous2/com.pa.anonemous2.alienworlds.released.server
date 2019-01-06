@@ -2,13 +2,13 @@
     "author": "Anonemous2",
     "build": "109959",
     "context": "server",
-    "date": "2019-1-4",
+    "date": "2019-1-5",
     "display_name": "AlienWorlds Server",
     "description": "Adds in addition biomes. Required to host modded biomes from Alienworlds.",
     "forum": "https://forums.uberent.com/threads/wip-biomes-mod-alienworlds.73119/",
     "identifier": "com.pa.anonemous2.alienworlds.released.server",
     "signature": "not yet implemented",
-    "version": "0.2.2",
+    "version": "0.2.2.1",
 	"icon": "https://forums.planetaryannihilation.com/data/attachments/28/28114-baac9cdf41167be6585aeb6d1b66181f.jpg",
 	"companions": [
 		"com.pa.anonemous2.alienworlds.released.client"

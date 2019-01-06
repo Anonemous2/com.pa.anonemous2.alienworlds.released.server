@@ -1,0 +1,9 @@
+{"name":"Sun",
+    "ambient_sound":"/SE/Ambience/Amb_Planet_Gas",
+    "base_biome":"/pa/terrain/base/base.json",
+    "enable_terrain":false,
+    "radius_range":[1000,10000],
+    "gas_material":{"shader":"sun",
+    "textures":{"NoiseTexture":"/pa/effects/textures/ThreeOctaveCloudNoise.papa",
+        "DistortTexture":"/pa/effects/textures/CloudNoise.papa"}},
+        "planet_effect_spec":"/pa/effects/specs/sun.pfx"}
