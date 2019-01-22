@@ -8,10 +8,10 @@
 	"forum": "https://forums.uberent.com/threads/wip-biomes-mod-alienworlds.73119/",
 	"identifier": "com.pa.anonemous2.alienworlds.released.server",
 	"signature": "not yet implemented",
-	"version": "0.3.0.0",
+	"version": "0.3.0.2",
 	"icon": "https://forums.planetaryannihilation.com/data/attachments/28/28114-baac9cdf41167be6585aeb6d1b66181f.jpg",
 	"companions": [
-        "com.pa.anonemous2.alienworlds.released.client"
+        "com.pa.anonemous2.alienworlds.released.companion"
     ],
     "authors": [
         "Anonemous2"

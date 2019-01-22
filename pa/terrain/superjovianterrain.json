@@ -9,7 +9,7 @@
     "class_range":[1,5],
     "enable_terrain":true,
     "radius_range":[250,1300],
-    "gas_material":{"shader":"gas","textures":{"DistortTexture":"/pa/effects/textures/CloudNoise.papa","ColorMapTexture":"/pa/terrain/effects/GasGiantColorMap.png"}},
+    "gas_material":{"shader":"gas","textures":{"DistortTexture":"/pa/effects/textures/CloudNoise.papa","ColorMapTexture":"/pa/terrain/effects/superjoviancolormap.png"}},
     "gas_colors":
 [[0.0194,0.0497,0.1195],
 [0.016,0.0742,0.0561],
