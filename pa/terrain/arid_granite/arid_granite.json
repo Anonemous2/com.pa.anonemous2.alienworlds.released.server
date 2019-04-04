@@ -1,0 +1,54 @@
+{"name":"arid_granite","color":[0.788,0.518,0.267,1],
+    "base_texture":"/pa/terrain/arid_granite/textures/base/arid_granite_tile_diffuse.png",
+    "normal_texture":"/pa/terrain/arid_granite/textures/base/arid_granite_tile_normal.png",
+
+    "layers":[
+        {"note":"0","disable":true,"noise":{"scale":1.5,"zoom":1,"type":"simplex"}},
+        {"note":"1","noise":{"scale":1,"zoom":1,"type":"simplex"}},
+        {"note":"2","noise":{"scale":3,"zoom":2,"type":"simplex"}},
+        {"note":"3","noise":{"scale":4,"zoom":10,"type":"simplex"}},
+        {"note":"4","inherit_noise":true},
+        {"note":"5","inherit_noise":true},
+        {"note":"6","inherit_noise":true},
+        {"note":"7","inherit_noise":true},
+        {"note":"8","inherit_noise":true},
+        {"note":"9","inherit_noise":true},
+        {"note":"10","inherit_noise":true},
+        {"note":"11","inherit_noise":true},
+        {"note":"12","inherit_noise":true},
+        {"note":"13","inherit_noise":true},
+        {"note":"14","inherit_noise":true},
+        {"note":"15","inherit_noise":true},
+        {"note":"16","inherit_noise":true},
+        {"note":"17","inherit_noise":true}],
+
+    "brushes":[
+        {"group":"basic",
+            "layer":3,
+            "weight":10,
+            "weight_scale":10,
+            "sample_scale":1,
+            "noise_range":[0.3,0.4],
+            "biome_distance_range":[100,null],
+            "threshold":1,
+            "op":"BO_Add",
+            "proj":"BP_Bend",
+            "brush_spec":"/pa/terrain/arid_granite/brushes/aird_granite_cliff_01.json",
+            "bias":4,
+            "scale":[1.0,1.0,1.0],
+            "scale_variation":0.5}
+    ],
+
+    "features":[],
+
+    "decals":[
+        {"layer":7,
+            "bias":100,
+            "noise_range":[0.0,1.0],
+            "pos_range":[0,0],
+            "elevation_range":[-1.0,1.0],
+            "scale":[60,60,1],
+            "scale_variation":0,
+            "count":1,
+            "material_spec":"/pa/terrain/arid_granite/decals/arid_granite_decal_01.json"}
+    ]}

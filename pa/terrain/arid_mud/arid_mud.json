@@ -1,0 +1,39 @@
+{"name":"arid_mud","color":[0.788,0.518,0.267,1],
+    "base_texture":"/pa/terrain/arid_mud/textures/base/arid_mud_tile_diffuse.png",
+    "normal_texture":"/pa/terrain/arid_mud/textures/base/arid_mud_tile_normal.png",
+
+    "layers":[
+        {"note":"0","disable":true,"noise":{"scale":1.5,"zoom":1,"type":"simplex"}},
+        {"note":"1","noise":{"scale":1,"zoom":1,"type":"simplex"}},
+        {"note":"2","noise":{"scale":3,"zoom":2,"type":"simplex"}},
+        {"note":"3","noise":{"scale":4,"zoom":10,"type":"simplex"}},
+        {"note":"4","inherit_noise":true},
+        {"note":"5","inherit_noise":true},
+        {"note":"6","inherit_noise":true},
+        {"note":"7","inherit_noise":true},
+        {"note":"8","inherit_noise":true},
+        {"note":"9","inherit_noise":true},
+        {"note":"10","inherit_noise":true},
+        {"note":"11","inherit_noise":true},
+        {"note":"12","inherit_noise":true},
+        {"note":"13","inherit_noise":true},
+        {"note":"14","inherit_noise":true},
+        {"note":"15","inherit_noise":true},
+        {"note":"16","inherit_noise":true},
+        {"note":"17","inherit_noise":true}],
+
+    "brushes":[],
+
+    "features":[],
+
+    "decals":[
+        {"layer":5,
+            "bias":100,
+            "noise_range":[0.0,1.0],
+            "pos_range":[0,0],
+            "elevation_range":[-1.0,1.0],
+            "scale":[80,80,1],
+            "scale_variation":0,
+            "count":1,
+            "material_spec":"/pa/terrain/arid_mud/decals/arid_mud_decal_01.json"}
+    ]}
